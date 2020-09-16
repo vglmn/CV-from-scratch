@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <link rel="stylesheet" type="text/css" href="src/CV.css">
+      <meta charset="utf-8">
+      <title>CV</title>
+   </head>
+   <body>
+      <div id="navbar">
+         <!-- <hr> -->
+               <button onclick="darkMode()" id="button" data-text-swap="Mode jour">Mode nuit</button>
+               <!--  
+               <a href="#">| Ce CV |</a>
+               <span class="divider"></span>
+               <a href="#">| Site Laravel |</a>
+               <a href="#">| Site Wordpress </a>
+               <hr>
+            -->
+   </div>
+      <div id="coordonnees">
+         <div id="nom">
+            <strong>Guillaume MARTIN</strong>
+            <p>3ème année de développement web</p>
+         </div>
+         <div id="infos">
+            <strong>Recherche d'alternance</strong>
+            <p>Durée : 1 an</p>
+            <p>Rythme : <br/> 3 semaines d'entreprises / 1 semaine d'école</p>
+         </div>
+         <div id="git">
+            <p>Github : <a href="https://github.com/vglmn" target="_blank">https://github.com/vglmn</a> </p>
+         </div>
+         <div id="inf2">
+            <strong>Infos</strong>
+            <p>Permis B</p>
+            <p>06 35 35 95 33</p>
+            <p>guillaume.martin@eemi.com</p>
+         </div>
+         <div id="lang">
+            <strong>Langues pratiquées</strong>
+            <p>Français : langue maternelle</p>
+            <p>Anglais : Intermédiaire</p>
+         </div>
+      </div>
+      <div id="formation">
+         <div id="infform">
+            <strong>Formation</strong> 
+         </div>
+         <div class="textform">
+            <p>
+               2016/2020 Bachelor Chef de Projets Digitaux
+               Spécialisation développement web à l'EEMI
+            </p>
+            <p> 2013/2015
+               Bac Professionnel Vente 
+            </p>
+         </div>
+         <div id="infxp">
+            <strong>Expériences</strong>
+         </div>
+         <div class="textform">
+            <strong class="titrestrong">EEMI</strong>
+            <p>2016/2019 Projet création de sites web en HTML/CSS, PHP (Laravel)</p>
+            <p>2018 Création d'une extension google
+               chrome/firefox
+            </p>
+            <p>2018 Projet de fin d'année application</p>
+            <hr>
+            <strong class="titrestrong">Stage</strong>
+            <p>2018 Stage en entreprise - Mairie de
+               Pontault-Combault (mise en place d'un
+               site en intra Wordpress)
+            </p>
+            <hr>
+            <strong class="titrestrong">Projet Personnel
+            </strong>
+            <p>2017 Mise en place d'un site & serveur de
+               jeu sous Debian 8/9
+            </p>
+         </div>
+         <div id="infcomp"><strong>Compétences</strong></div>
+         <div class="textform">
+            <strong class="titrestrong">
+            Développement web
+            </strong>
+            <hr>
+            <p>Docker, CSS, PHP, Laravel,
+               JavaScript, Bash, Ajax, SQL, Unix,
+               Wordpress, Node.js, Angular
+            </p>
+            <strong class="titrestrong">Web design
+            </strong>
+            <p>Photoshop, Illustrator, Indesign</p>
+            <hr>
+            <strong class="titrestrong">Tronc commun</strong>
+            <p>Gestion de projet, stratégie juridique et
+               digitale, seo, entrepreneuriat...
+            </p>
+         </div>
+      </div>
+   <script>
+         function darkMode() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+         }
+      </script>
+      <script src="./src/CV.js"></script>
+   </body>
+</html>
